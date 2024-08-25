@@ -1,3 +1,4 @@
+// This problems needs to count the number of connected component .
 #include<bits/stdc++.h>
 using namespace std;
 #define tc int t; cin >> t; while(t--)
