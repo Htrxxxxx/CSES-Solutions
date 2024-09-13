@@ -31,7 +31,7 @@ void Dijkstra (vector<int> &Distace) {
         int curr = gq.top().second ;
         int w = gq.top().first ;
         gq.pop() ;
-        // Very important to check if u calculate this node before in Dense Gragh u may push this node more than once .
+        // Very important to check if you calculate this node before , in Dense Gragh u may push this node more than once .
         if(visited[curr]) continue ;
         visited[curr] = 1;
         for(auto &it : adj[curr]){
